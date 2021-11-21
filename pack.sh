@@ -1,0 +1,1 @@
+zip 2a5-addon.zip manifest.json popup/* icons/icon-2a5-*.png
