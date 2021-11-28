@@ -1,0 +1,14 @@
+{
+    "addons": {
+      "{5e5e41f6-c786-4cc5-981a-1e401cfd08a7}": {
+        "updates": [
+          {
+            "version": "1.0.0",
+            "update_link": "https://raw.githubusercontent.com/reckseba/2a5-addon/main/releases/2a5.de_url-shortener_addon-1.0.0.zip",
+            "update_info_url": "https://raw.githubusercontent.com/reckseba/2a5-addon/main/releases/2a5.de_url-shortener_addon-1.0.0.html",
+            "update_hash": "sha256:47d72158ee158f564e59b69b7bbd7278d85ca8322af7a00cedb918f111ae995b"
+          }
+        ]
+      }
+    }
+  }
