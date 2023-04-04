@@ -19,7 +19,7 @@ function call2a5(tabs) {
     });
 
     // our endpoint and we want to post
-    xhr.open('POST', 'https://2a5.de/newUrlLong');
+    xhr.open('PUT', 'https://2a5.de/api/newUrlLong');
 
     // we'll post an json object as this is required by our endpoint
     xhr.setRequestHeader('Content-type', 'application/json; charset=utf-8');
@@ -30,7 +30,7 @@ function call2a5(tabs) {
     xhr.onload = function() {
 
         // check for http status code - if not 200 success then log sth
-        if (xhr.status != 200) {
+        if (![201, 409].includes(xhr.status)) {
             console.log(`Error ${xhr.status}: ${xhr.statusText}`);
         } else {
 
